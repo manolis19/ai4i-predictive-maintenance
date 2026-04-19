@@ -30,6 +30,17 @@ heat dissipation, tool wear dynamics) rather than purely statistical approaches.
 - **Cost estimation** — calculate savings from early maintenance
 - **Custom dataset upload** — retrain the model on your own data
 
+## Screenshots
+
+### Failure Prediction & Cost Estimation
+![Manual Input](assets/Manula_Iput_Tab.png)
+
+### SHAP Decision Analysis
+![SHAP](assets/SHAP.png)
+
+### Custom Dataset Upload
+![Upload](assets/Upload_Dataset.png)
+
 ## Tech Stack
 - **ML:** XGBoost, scikit-learn, Optuna (hyperparameter tuning)
 - **Explainability:** SHAP
