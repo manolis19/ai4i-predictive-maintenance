@@ -73,9 +73,15 @@ The dataset contains 5 distinct failure modes:
 - The AI4I 2020 dataset is synthetically generated. Failure thresholds are 
   built into the data by design, which causes sharp decision boundaries 
   that may not generalize to real-world sensor data.
-- The optimal threshold (0.35) assumes a specific cost ratio between false alarms 
-  and missed failures. In production, this should be adjusted based on actual 
-  maintenance and downtime costs.
+- The decision threshold (0.35) was selected to maximize the F1-score on the 
+  minority class (Failure), resulting in Precision=0.88 and Recall=0.84.
+  In a real industrial setting, the threshold should be optimized based on actual costs:
+  - **Cost of unplanned failure** (production downtime, equipment damage)
+  - **Cost of preventive maintenance** (labor, parts, planned downtime)
+  
+  For example, if unplanned failure costs 10x more than preventive maintenance,
+  a lower threshold (higher Recall) would minimize total cost, even at the 
+  expense of more false alarms.
 
 ## Project Structure
 ```
