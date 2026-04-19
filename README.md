@@ -33,7 +33,7 @@ heat dissipation, tool wear dynamics) rather than purely statistical approaches.
 ## Screenshots
 
 ### Failure Prediction & Cost Estimation
-![Manual Input](assets/Manula_Iput_Tab.png)
+![Manual Input](assets/Manual_Input_Tab.png)
 
 ### SHAP Decision Analysis
 ![SHAP](assets/SHAP.png)
