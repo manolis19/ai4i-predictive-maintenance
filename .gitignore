@@ -1,0 +1,19 @@
+# Dataset
+ai4i+2020+predictive+maintenance+dataset/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Old model files
+features.pkl
+rf_model.pkl
+threshold.pkl
+README.txt
+
+# Dataset
+data/
+data/ 
