@@ -4,7 +4,7 @@ A machine learning system that predicts industrial equipment failure from sensor
 with SHAP explainability and an interactive Streamlit dashboard.
 
 ## Live Demo
-[🚀 Open Dashboard](#) ← θα προσθέσουμε το link μετά το deploy
+[🚀 Open Dashboard](https://ai4i-predictive-maintenance.streamlit.app/)
 
 ## Overview
 This project builds an end-to-end predictive maintenance pipeline using the
