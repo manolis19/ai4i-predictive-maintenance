@@ -86,14 +86,13 @@ The dataset contains 5 distinct failure modes:
 ## Project Structure
 ```
 ai4i-predictive-maintenance/
-├── data/                               # Dataset
+├── assets/                             # Dashboard screenshots
 ├── models/                             # Saved model files
 │   ├── xgb_model.pkl
 │   ├── feature_names.pkl
 │   ├── label_encoder.pkl
 │   └── threshold.pkl
 ├── predictive_maintenance_final.ipynb  # Final clean notebook
-├── working_notebook.ipynb              # Full working notebook with experiments
 ├── app.py                              # Streamlit dashboard
 ├── requirements.txt                    # Dependencies
 └── README.md
